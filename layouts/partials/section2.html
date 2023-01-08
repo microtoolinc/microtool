@@ -1,0 +1,59 @@
+{{- $section2 := .Site.Params.section2 }}
+{{- $title    := index $section2 "title" }}
+{{- $subtitle := index $section2 "subtitle" }}
+{{- $text     := index $section2 "text" }}
+{{- $image    := index $section2 "image" }}
+<section class="section is-medium" id="materials">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2">{{ $title }}</h2>
+      <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+      <div class="divider is-centered"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="column has-text-centered">
+        <p>{{ $text }}</p>
+      </div>
+      <div class="col"></div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <strong>Metal</strong>
+            <li>Brass</li>
+            <li>Bronze</li>
+            <li>Copper</li>
+            <li>Kovar</li>
+            <li>Stainless Steel</li>
+            <li>Steel</li>
+            <li>Titanium</li>   
+      </div>
+      <div class="col">
+        <strong>Plating</strong>
+            <li>Chromate</li>
+            <li>Gold</li>
+            <li>Nickel</li>
+            <li>Silver</li>
+      </div>
+      <div class="col">
+        <strong>Plastic</strong>
+            <li>1422 Rexolite</li>
+            <li>ABS</li>
+            <li>Acetal</li>
+            <li>Acrylic</li>
+            <li>Nylon</li>
+            <li>Phenolics</li>
+            <li>Polycarbonate</li>
+            <li>Polycarbonate-UHMW</li>
+            <li>Polypropylene</li>
+            <li>PVC</li>
+      </div>
+      <div class="column is-5 is-offset-1">
+        <figure class="image is-4by3">
+          <img src="{{ $image }}" alt="Description">
+        </figure>
+      </div>
+    </div>
+  </div>
+</div>

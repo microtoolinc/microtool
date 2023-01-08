@@ -1,0 +1,205 @@
+baseURL: https://microtoolinc.com/
+languageCode: en-us
+title: "Microtool, Inc. | 913-492-1588"
+theme: hugo-fresh
+
+googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+# Disables warnings
+
+disableKinds:
+- taxonomy
+- taxonomyTerm
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy
+  description: "913-492-1588 Lenexa, KS | Microtool Inc. Manufacturer of Precision Machined RF Enclosures."
+  # Preloader ensures images are loaded before displaying to the user. If you don't want it uncomment to set it to false
+  # preloader: false
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/logo-300px.png
+    link: /
+    # Default width/height. Uncomment if you need to change
+    width: 250
+    height: 78
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+
+  hero:
+    # Main hero title
+    title: Microtool, Inc.
+    # Hero subtitle (optional)
+    subtitle: Manufacturer of precision machined RF enclosures
+    # Button text
+    buttontext: Find out more
+    # Where the main hero button links to
+    buttonlink: "#"
+    # Hero image (from static/images/___)
+    image: illustrations/worker.svg
+    # Footer logos (from static/images/logos/clients/___.svg)
+    #clientlogos:
+    #- systek
+    #- tribe
+    #- kromo
+    #- infinite
+    #- gutwork
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+
+  navbar:
+  - title: Products
+    url: /#products
+  - title: Materials
+    url: /#materials
+  - title: CNC Machining
+    sublinks:
+    - title: CNC Milling Centers
+      url: /#milling
+    - title: CNC Turning Centers
+      url: /#turning
+  - title: Precision Finishing
+    url: /#finishing
+  - title: Support Equipment
+    url: /#support
+  - title: Contact Us
+    url: /#contactus
+    button: true
+#  - title: Dropdown
+#    sublinks:
+#    - title: Dropdown item
+#      url: /
+#    - title: Dropdown item
+#      url: /
+#    - title: Dropdown item
+#      url: /
+
+  # sidebar:
+  #   # Logo (from /images/logos/___.svg)
+  #   logo: fresh-square
+  #   sections:
+  #   - title: User
+  #     icon: user
+  #     links:
+  #     - text: Profile
+  #       url: /
+  #     - text: Account
+  #       url: /
+  #     - text: Settings
+  #       url: /
+  #   - title: Messages
+  #     icon: envelope
+  #     links:
+  #     - text: Inbox
+  #       url: /
+  #     - text: Compose
+  #       url: /
+  #   - title: Images
+  #     icon: image
+  #     links:
+  #     - text: Library
+  #       url: /
+  #     - text: Upload
+  #       url: /
+  #   - title: Settings
+  #     icon: cog
+  #     links:
+  #     - text: User settings
+  #       url: /
+  #     - text: App settings
+  #       url: /
+
+  section1:
+    title: You Design It ... We Perfect It
+    subtitle: 
+    text-para1: "Our expertise is founded in the machining of precision microwave housings.  Since our inception in 1989, Microtool Inc. has maintained a focus in the niche of machining copper, aluminum, brass and stainless RF enclosures and waveguides. We also provide precision lens manufacturing from plastic materials that include Rexolite, Acetal, ABS, polyethylene, UHMW, acrylic and PVC."
+    text-para2: "Our focus in these areas allows our employees to become familiar with the details required to build precision microwave-specific features efficiently in these materials.  Because of our concentration in the microwave and millimeter wave industries, we have the ability to be very competitive in pricing while producing extremely high-quality components."
+    text-para3:
+  section2:
+  ## Core content is hardcoded in section2.html
+    title: Materials
+    subtitle: 
+    text: "Microtool Inc. machines most ferrous and nonferrous metals as well as plastics common to the microwave industry, all to exacting standards."
+    image: images/matcolag.gif
+  section3:
+    title: CNC Milling Centers
+    subtitle: 
+    image: images/milcolag.gif
+    text-para1: "Our expertise is founded in the machining of precision microwave housings.  Since our inception in 1989, Microtool Inc. has maintained a focus in the niche of machining copper, aluminum, brass and stainless RF enclosures and waveguides. We also provide precision lens manufacturing from plastic materials that include Rexolite, Acetal, ABS, polyethylene, UHMW, acrylic and PVC."
+    text-para2: "Our focus in these areas allows our employees to become familiar with the details required to build precision microwave-specific features efficiently in these materials.  Because of our concentration in the microwave and millimeter wave industries, we have the ability to be very competitive in pricing while producing extremely high-quality components."
+    text-para3:
+  section4:
+    title: CNC Turning Centers
+    subtitle: 
+    image: images/turncolag.gif
+    text-para1: "Whether you need a single prototype or a large production run, Microtool can produce it for you."
+    text-para2: "Our CNC turning machines were originally purchased to solve one of our customer’s plastic turning needs."
+    text-para3: "Microtool has produced nearly half a million lenses on our turning centers, and would love to bid on your round part needs."
+  section5:
+    title: Precision Finishing Department
+    subtitle:
+    image: images/deburr_closeup.jpg
+    text: "We have full-time staff dedicated to inspection of your parts when they come off the machines. This visual inspection under 10x and 30x microscopes not only allows us to effectively deburr your parts, but also adds another layer of redundancy in verifying that you receive exactly what you need."
+
+
+
+
+
+  contactus: true
+  footer:
+    # Logo (from /images/logos/___)
+    logo: fresh-white-alt.svg
+    # Social Media Title
+    socialmediatitle: Follow Us
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/lucperkins/github-fresh
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://dribbble.com/#
+      icon: dribbble
+    - link: https://facebook.com/#
+      icon: facebook
+    - link: https://twitter.com/lucperkins
+      icon: twitter
+    - link: https://bitbucket.org/#
+      icon: bitbucket
+    bulmalogo: true
+    quicklinks:
+      column1:
+        title: "Product"
+        links:
+        - text: Discover features
+          link: /
+        - text: Why choose our product?
+          link: /
+        - text: Compare features
+          link: /
+        - text: Our roadmap
+          link: /
+        - text: AGB
+          link: /agb
+      column2:
+        title: "Docs"
+        links:
+        - text: Get started
+          link: /
+        - text: User guides
+          link: /
+        - text: Admin guide
+          link: /
+        - text: Developers
+          link: /
+      column3:
+        title: "Blog"
+        links:
+        - text: Latest news
+          link: /blog/first
+        - text: Tech articles
+          link: /blog/second
