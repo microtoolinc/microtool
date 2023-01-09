@@ -43,7 +43,7 @@ params:
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from static/images/___)
-    image: illustrations/worker.svg
+    image: collage.gif
     # Footer logos (from static/images/logos/clients/___.svg)
     #clientlogos:
     #- systek
