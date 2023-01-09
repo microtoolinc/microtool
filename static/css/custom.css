@@ -2,9 +2,19 @@
   min-height: 6rem;
 }
 
+.navbar.is-fresh .navbar-item, .navbar-link {
+  color: #003E7B !important;
+}
+
 .navbar-item img {
   min-height: 5rem;
   max-width: 100%;
+}
+  
+.divider {
+  background-color: #003E7B;
+  height: 0.5rem;
+  width: 100px;
 }
 
 .img-vert-center {
