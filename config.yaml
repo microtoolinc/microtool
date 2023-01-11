@@ -1,4 +1,4 @@
-baseURL: https://silly-taffy-31ca72.netlify.app
+baseURL: https://microtoolinc.netlify.app
 languageCode: en-us
 title: "Microtool, Inc. | 913-492-1588"
 theme: hugo-fresh
@@ -41,7 +41,7 @@ params:
     # Button text
     buttontext: Find out more
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: "#about"
     # Hero image (from static/images/___)
     image: collage.gif
     # Footer logos (from static/images/logos/clients/___.svg)
@@ -115,6 +115,14 @@ params:
   #     - text: App settings
   #       url: /
 
+  about:
+    title: About Microtool
+    subtitle: 
+    text-para1: Microtool, Inc. builds precision RF, Micro and Millimeter Wave enclosures in our machining centers, including waveguides, filters, and housings for amplifiers, switches and other microwave devices.
+    text-para2: We have the ability to import solid models and drawings from most popular CAD design programs. Our regularly updated MasterCAM software suite is capable of handling even the most detailed programming needs. An open communication line during programming and manufacturing allows for easy resolution of questions, and any needed progress reports can be easily provided. 
+    text-para3: Microtool, Inc. has a variety of machining centers, selected to efficiently fulfill our customer orders. We offer 4-axis and 3+2 axis capabilities, strategically placed across our equipment. Microtool utilizes several RoboDrill machining centers, as well as CNC mills from Feeler, Hurco, and Okuma, and two Haas CNC lathes. Complementing our operations are a variety of support equipment and a staff of machinists with more than 100 years of combined experience. 
+    buttontext: Contact us
+    buttonlink: "#contactus"
   section1:
     title: You Design It ... We Perfect It
     subtitle: 
