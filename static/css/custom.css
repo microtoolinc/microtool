@@ -1,7 +1,25 @@
+@media screen and (min-width: 1088px)
+.section.is-medium {
+    padding: 0rem 1.5rem;
+}
+
 body {
   background-color: #fff !important;
   background: url("/images/smith-chart-faded.png") no-repeat center center fixed !important;
   background-size: cover !important;
+}
+
+footer.footer-dark .footer-logo img {
+  height: 100px;
+}
+
+.footer {
+  background-color: #fafafa;
+  padding: 1rem 1.5rem 2rem;
+}
+
+.footer-column .footer-header .footer-small {
+  font-size: 1rem;
 }
 
 .section-feature-grey {
