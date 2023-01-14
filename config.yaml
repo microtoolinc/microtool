@@ -154,6 +154,11 @@ params:
     subtitle:
     image: images/deburr_closeup.jpg
     text: "We have full-time staff dedicated to inspection of your parts when they come off the machines. This visual inspection under 10x and 30x microscopes not only allows us to effectively deburr your parts, but also adds another layer of redundancy in verifying that you receive exactly what you need."
+  section6:
+    title: Support Equipment
+    subtitle: 
+    image: images/suptcolage.gif
+    text: "Our policy is to perform as many tasks on your machined components with our CNC equipment as possible. Reduction of human error is accomplished by keeping this concept in place, and this policy keeps our support equipment to a minimum."
 
   contactus: true
 
