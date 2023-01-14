@@ -1,3 +1,12 @@
+body {
+  background-color: #fff !important;
+  background: url("/images/smith-chart-faded.png") no-repeat center center fixed !important;
+  background-size: cover !important;
+}
+
+.section-feature-grey {
+  opacity: 0.85;}
+
 .navbar .container {
   min-height: 6rem;
 }
