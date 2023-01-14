@@ -5,7 +5,8 @@
 
 body {
   background-color: #fff !important;
-  background: url("/images/smith-chart-faded.png") no-repeat center center fixed !important;
+  background: url("/images/smith-chart-faded.webp") no-repeat center center fixed !important;
+  background-width: 100% !important;
   background-size: cover !important;
 }
 
