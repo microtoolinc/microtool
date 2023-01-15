@@ -1,28 +1,54 @@
+{{- $contact := .Site.Params.contactus }}
+{{- $title    := index $contact "title" }}
+{{- $subtitle := index $contact "subtitle" }}
+{{- $text1    := index $contact "text1" }}
+{{- $text2    := index $contact "text2" }}
+{{- $text3    := index $contact "text3" }}
 <section class="section section-light-grey is-medium" id="contactus">
   <div class="container">
     <div class="title-wrapper has-text-centered">
-      <h2 class="title is-2 is-spaced">Drop us a line or two </h2>
+      <h2 class="title is-2 is-spaced">Contact Us Today</h2>
       <h3 class="subtitle is-5 is-muted">We'd love to hear from you</h3>
       <div class="divider is-centered"></div>
     </div>
-
+    <div class="column has-text-centered">
+      <p>{{ $text1 }}</p>
+      <p>{{ $text2 }}</p>
+      <p>{{ $text3 }}</p>
+    </div>
     <div class="content-wrapper">
-      <div class="columns">
+      <div class="columns is-multiline">
         <div class="column is-6 is-offset-3">
-          <form>
-            <div class="columns is-multiline">
-              <div class="column is-6">
-                <input class="input is-medium" type="text" placeholder="Enter your name">
-              </div>
-              <div class="column is-6">
-                <input class="input is-medium" type="email" placeholder="Enter your email address">
-              </div>
-              <div class="column is-12">
-                <textarea class="textarea" rows="10" placeholder="Write someting..."></textarea>
-              </div>
-              <div class="form-footer has-text-centered mt-10">
-                <button class="button cta is-large primary-btn raised is-clear">Send Message</button>
-              </div>
+          <form name="contact" class="contact-form width-normal" action="/thank-you/" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+            <input type="hidden" name="form-name" value="contact" />
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Name"></label>
+                <div class="col-md-4">
+                    <input id="contact-form-name" name="Name" type="text" placeholder="Name" class="form-control input-md" required="" autocomplete="off">
+                </div>
+            </div>
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Email"></label>
+                <div class="col-md-4">
+                    <input id="contact-form-email" name="Email" type="email" placeholder="Email Address" class="form-control input-md" required="" autocomplete="off">
+                </div>
+                <label class="col-md-4 control-label" for="Subject"></label>
+                <div class="col-md-4">
+                    <input id="contact-form-subject" name="Subject" type="text" value="Submission from the website" hidden="yes" placeholder="Subject" class="form-control input-md" required="" autocomplete="off">
+                </div>
+            </div>
+            <!-- Textarea -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for=""></label>
+                <textarea class="form-control" id="contact-form-message" name="Message" placeholder="What can we do for you?" rows="8"></textarea>
+            </div>
+            <!-- Recaptcha -->
+            <div data-netlify-recaptcha="true"></div>
+            <!-- Button -->
+            <div class="form-group">
+                <button type="submit" value="Submit" id="Form-submit">Submit</button>
             </div>
           </form>
         </div>

@@ -160,7 +160,12 @@ params:
     image: images/suptcolage.gif
     text: "Our policy is to perform as many tasks on your machined components with our CNC equipment as possible. Reduction of human error is accomplished by keeping this concept in place, and this policy keeps our support equipment to a minimum."
 
-  contactus: true
+  contactus: 
+    title: Contact Us Today
+    subtitle: We'd love to hear from you
+    text1: "Thank you for considering us as a vendor for your company. We have been in business since 1989 machining parts for Military Communications, Aerospace, Police Radar, and the Micro and Millimeter Wave industries. As a new vendor to your company, we can supply first article parts for your inspectors to evaluate."
+    text2: "Please feel free to contact us with any questions or comments you might have."
+    #text3: ""
 
   footer:
     # Logo (from /images/logos/___)
