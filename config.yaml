@@ -118,9 +118,9 @@ params:
   about:
     title: About Microtool
     subtitle: 
-    text-para1: Microtool, Inc. builds precision RF, Micro and Millimeter Wave enclosures in our machining centers, including waveguides, filters, and housings for amplifiers, switches and other microwave devices.
-    text-para2: We have the ability to import solid models and drawings from most popular CAD design programs. Our regularly updated MasterCAM software suite is capable of handling even the most detailed programming needs. An open communication line during programming and manufacturing allows for easy resolution of questions, and any needed progress reports can be easily provided. 
-    text-para3: Microtool, Inc. has a variety of machining centers, selected to efficiently fulfill our customer orders. We offer 4-axis and 3+2 axis capabilities, strategically placed across our equipment. Microtool utilizes several RoboDrill machining centers, as well as CNC mills from Feeler, Hurco, and Okuma, and two Haas CNC lathes. Complementing our operations are a variety of support equipment and a staff of machinists with more than 100 years of combined experience. 
+    text-para1: "Microtool Inc was founded in 1989, with a focus on machining parts for the rapidly growing Millimeter Wave Industry. As more and higher frequencies were adopted and applied, Microtool grew and adapted with them, producing many types of housing, antennae and waveguide for industries ranging from communication to radar to munitions to aerospace applications. Our experience allows us to work with customers to get detailed parts right the first time. Please continue viewing our site, and should you have any questions, please contact us by filling out the Contact Us form. We would love to earn your business."
+#    text-para2: We have the ability to import solid models and drawings from most popular CAD design programs. Our regularly updated MasterCAM software suite is capable of handling even the most detailed programming needs. An open communication line during programming and manufacturing allows for easy resolution of questions, and any needed progress reports can be easily provided. 
+#    text-para3: Microtool, Inc. has a variety of machining centers, selected to efficiently fulfill our customer orders. We offer 4-axis and 3+2 axis capabilities, strategically placed across our equipment. Microtool utilizes several RoboDrill machining centers, as well as CNC mills from Feeler, Hurco, and Okuma, and two Haas CNC lathes. Complementing our operations are a variety of support equipment and a staff of machinists with more than 100 years of combined experience. 
     buttontext: Contact us
     buttonlink: "#contactus"
   section1:
@@ -139,9 +139,9 @@ params:
     title: CNC Milling Centers
     subtitle: 
     image: images/milcolag.gif
-    text-para1: "Our expertise is founded in the machining of precision microwave housings.  Since our inception in 1989, Microtool Inc. has maintained a focus in the niche of machining copper, aluminum, brass and stainless RF enclosures and waveguides. We also provide precision lens manufacturing from plastic materials that include Rexolite, Acetal, ABS, polyethylene, UHMW, acrylic and PVC."
-    text-para2: "Our focus in these areas allows our employees to become familiar with the details required to build precision microwave-specific features efficiently in these materials.  Because of our concentration in the microwave and millimeter wave industries, we have the ability to be very competitive in pricing while producing extremely high-quality components."
-    text-para3:
+    text-para1: "Microtool, Inc builds precision RF, Micro and Millimeter Wave enclosures in our machining centers, including waveguides, filters, and housings for amplifiers, switches and other microwave devices."
+    text-para2: "We are able import solid models and drawings from most popular CAD design programs. Our regularly updated MasterCAM software suite is capable of handling even the most detailed programming needs. An open communication line during programming and manufacturing allows for easy resolution of questions, and any needed progress reports can be easily provided."
+    text-para3: "Microtool, Inc. has a variety of machining centers, selected to efficiently fulfill our customer orders. We offer 4-axis and 3+2 axis capabilities, strategically placed across our equipment. Microtool utilizes several RoboDrill machining centers, as well as CNC mills from Feeler, Hurco, and Okuma. Complementing our operations are a variety of support equipment and a staff of machinists with more than 100 years of combined experience."
   section4:
     title: CNC Turning Centers
     subtitle: 
