@@ -23,6 +23,9 @@ footer.footer-dark .footer-logo img {
   font-size: 1rem;
 }
 
+footer.footer-dark {
+  background: #a1a4a9;}
+
 .section-feature-grey {
   opacity: 0.85;}
 
